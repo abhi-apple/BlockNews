@@ -16,7 +16,7 @@ const Bitcoin = () => {
         setcoins(res.data.articles);
       })
       .catch((error) => console.log(error));
-  }, []);
+  },);
 
   return (
     <>

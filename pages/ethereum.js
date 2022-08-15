@@ -19,7 +19,7 @@ const Ether = () => {
         console.log(res.data);
       })
       .catch((error) => console.log(error));
-  }, []);
+  });
 
   
   return (

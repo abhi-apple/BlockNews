@@ -7,11 +7,14 @@ function Details(props) {
     
     <div className="lg:w-1/4 md:w-1/2 p-4 shadow-lg rounded-3xl transition duration-1000 transform hover:shadow-amber-300 w-full">
       <a className="block relative h-48 rounded overflow-hidden">
+        <picture>
+
         <img
           alt="ecommerce"
           className="m-auto md:m-0 mt-2 md:w-full md:h-full h-[30vh] md:h-[36hv]  block"
           src={props.image}
         />
+        </picture>
       </a>
       <Link
         href={{

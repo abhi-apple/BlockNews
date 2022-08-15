@@ -18,20 +18,26 @@ const About = () => {
               </h1>
             </div>
             <div className="shadow-lg rounded-3xl transition duration-1000 transform hover:shadow-amber-300   overflow-hidden">
+              <picture>
+
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
                 src={data.image}
               />
+              </picture>
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                  <picture>
+
                   <img
                     src={`https://source.unsplash.com/random`}
                     className=" cursor-pointer rounded-full"
                     alt=""
                   />
+                  </picture>
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="font-medium title-font mt-4  text-lg">
