@@ -638,6 +638,11 @@
     "path-type" "^4.0.0"
     "yaml" "^1.10.0"
 
+"create-next-app@^12.2.5":
+  "integrity" "sha512-NaMprsZjdAY9zlo0EAxbcv2zPk0jIShqkco5OIwly4pD5b1knCqfft6l7zupqGvYp+qb2w2aZntQpGLTagmVUQ=="
+  "resolved" "https://registry.npmjs.org/create-next-app/-/create-next-app-12.2.5.tgz"
+  "version" "12.2.5"
+
 "cross-spawn@^7.0.2":
   "integrity" "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
   "resolved" "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
@@ -1545,11 +1550,6 @@
   dependencies:
     "js-tokens" "^3.0.0 || ^4.0.0"
 
-"lottie-web@^5.5.7":
-  "integrity" "sha512-JFs7KsHwflugH5qIXBpB4905yC1Sub2MZWtl/elvO/QC6qj1ApqbUZJyjzJseJUtVpgiDaXQLjBlIJGS7UUUXA=="
-  "resolved" "https://registry.npmjs.org/lottie-web/-/lottie-web-5.9.6.tgz"
-  "version" "5.9.6"
-
 "lru-cache@^6.0.0":
   "integrity" "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA=="
   "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
@@ -1619,7 +1619,7 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next@12.2.5":
+"next@^12.2.5":
   "integrity" "sha512-tBdjqX5XC/oFs/6gxrZhjmiq90YWizUYU6qOWAfat7zJwrwapJ+BYgX2PmiacunXMaRpeVT4vz5MSPSLgNkrpA=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.2.5.tgz"
   "version" "12.2.5"
@@ -1906,12 +1906,7 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
-"react-animated-social-icons@^1.1.0":
-  "integrity" "sha512-TM1taeasC4Adl5kfOMTdnq5O44C+v4KQtk50hHDJ1Mp2jbWkMSR7zkvn4eaofoaTdrp7KA+d2dl3uuXbej3RdA=="
-  "resolved" "https://registry.npmjs.org/react-animated-social-icons/-/react-animated-social-icons-1.1.0.tgz"
-  "version" "1.1.0"
-
-"react-dom@18.2.0":
+"react-dom@^18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1958,13 +1953,6 @@
   dependencies:
     "@tweenjs/tween.js" "^18.6.4"
     "resize-observer-polyfill" "^1.5.1"
-
-"react-useanimations@^2.0.8":
-  "integrity" "sha512-pjA5M8qA2NF3kvvu8yuBToOt79fdqXpx3Ba32ci8uG9zSv5XHz1d4OmDqqWARwaFWLIRS1Jan3HllpsqUWiKjw=="
-  "resolved" "https://registry.npmjs.org/react-useanimations/-/react-useanimations-2.0.8.tgz"
-  "version" "2.0.8"
-  dependencies:
-    "lottie-web" "^5.5.7"
 
 "react@^16.8.6":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
