@@ -62,12 +62,12 @@ const Navbar = () => {
         onClick={toggleCart}
         className=" cursor-pointer pt-4 flex absolute rounded-full right-0 top-3 mx-3"
       >
-        <h1 className="text-neutral-300 pr-5  font-serif font-semibold  hover:text-white ">More Projects</h1>
+        <h1 className="text-neutral-300 pr-5  font-mono font-semibold  hover:text-white ">More Projects</h1>
         <SiBlockchaindotcom color="#fce48f" className=" md:text-3xl text-xl" />
       </div>
       <div
         ref={ref}
-        className="sidebar absolute top-0 right-0 bg-[#fce48f] pt-8 pl-5 pr-2 trasfrom transition-transform translate-x-full"
+        className="sidebar absolute top-1 right-1 rounded-xl bg-[#fce48f] pt-8 pl-5 pr-2 trasfrom transition-transform translate-x-full"
       >
         <h2 className="font-bold pb-2 text-xl"> Projects On Blockchain</h2>
         <span
@@ -76,9 +76,9 @@ const Navbar = () => {
         >
           <AiFillCloseCircle />
         </span>
-        <div className=" w-full px-4">
+        <div className=" w-full pl-6 px-4">
 
-          <nav className="list-none space-y-2 mb-10">
+          <nav className="list-none pl-8 space-y-2 mb-10">
             <li>
               <a
                 href="https://ethcrypt.netlify.app/"
@@ -86,7 +86,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Ethcrypt
+               1. Ethcrypt
               </a>
             </li>
             <li>
@@ -96,7 +96,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Cryptex
+               2. Cryptex
               </a>
             </li>
             <li>
@@ -106,7 +106,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                BlockTech
+              3. BlockTech
               </a>
             </li>
           </nav>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { SiBitcoin, SiEthereum, SiDogecoin } from "react-icons/si";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { MdMoneyOff } from "react-icons/md";
+import Link from "next/link";
 const About = () => {
   const router = useRouter();
   const data = router.query;
@@ -19,24 +20,22 @@ const About = () => {
             </div>
             <div className="shadow-lg rounded-3xl transition duration-1000 transform hover:shadow-amber-300   overflow-hidden">
               <picture>
-
-              <img
-                alt="content"
-                className="object-cover object-center h-full w-full"
-                src={data.image}
-              />
+                <img
+                  alt="content"
+                  className="object-cover object-center h-full w-full"
+                  src={data.image}
+                />
               </picture>
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                   <picture>
-
-                  <img
-                    src={`https://source.unsplash.com/random`}
-                    className=" cursor-pointer rounded-full"
-                    alt=""
-                  />
+                    <img
+                      src={`https://source.unsplash.com/random`}
+                      className=" cursor-pointer rounded-full"
+                      alt=""
+                    />
                   </picture>
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
@@ -56,12 +55,13 @@ const About = () => {
                 <p className="leading-relaxed text-lg text-neutral-400 hover:text-neutral-50 mb-4">
                   {data.content}
                 </p>
-                <a
-                  href={data.urls}
-                  target={"_blank"}
-                  rel={"noreferrer"}
+                <Link
+                  href={`${data.urls}`}
+                  passHref={true}
+            
                   className="text-indigo-500 pt-2 inline-flex items-center"
                 >
+                <a target="_blank">
                   <button
                     type="button"
                     className="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2"
@@ -102,7 +102,8 @@ const About = () => {
                     })()}
                     Read More
                   </button>
-                </a>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

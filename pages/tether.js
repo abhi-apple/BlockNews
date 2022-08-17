@@ -32,6 +32,7 @@ const Tether = ({news}) => {
                   description={coin?.description}
                   content={coin?.content}
                   author={coin?.author}
+                  url={coin?.url}
                   title={coin?.title}
                   publishedAt={coin?.publishedAt}
                   key={coin?.urlToImage}

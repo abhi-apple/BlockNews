@@ -36,6 +36,7 @@ const Solana = ({news}) => {
                   title={coin?.title}
                   publishedAt={coin?.publishedAt}
                   key={coin?.urlToImage}
+                  url={coin?.url}
                 />
               );
             })}

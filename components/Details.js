@@ -2,7 +2,6 @@ import React from "react";
 import About from "../pages/about";
 import Link from "next/link";
 function Details(props) {
-
   return (
     
     <div className="lg:w-1/4 md:w-1/2 p-4 shadow-lg rounded-3xl transition duration-1000 transform hover:shadow-amber-300 w-full">
@@ -11,7 +10,7 @@ function Details(props) {
 
         <img
           alt="ecommerce"
-          className="m-auto md:m-0 mt-2 md:w-full md:h-full h-[30vh] md:h-[36hv]  block"
+          className="m-auto md:m-0 mt-2 md:w-full  h-[30vh]   block"
           src={props.image}
         />
         </picture>
@@ -28,6 +27,7 @@ function Details(props) {
               {props.title}
             </h3>
           </button>
+
         </div>
       </Link>
     </div>
